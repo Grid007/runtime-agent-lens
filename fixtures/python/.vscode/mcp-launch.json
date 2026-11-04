@@ -1,0 +1,14 @@
+{
+  // Agent-only configurations. Started as inline objects, never shown in the F5 dropdown.
+  "configurations": [
+    {
+      "name": "mcp: python app (stop on entry)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.py",
+      "console": "internalConsole",
+      "stopOnEntry": true,
+      "justMyCode": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "vscodeDebuggerMcp.port": 54367,
+  "python.testing.unittestEnabled": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestArgs": ["-v", "-s", ".", "-p", "test_*.py"]
+}
